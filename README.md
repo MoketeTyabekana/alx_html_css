@@ -8,7 +8,7 @@ This project focuses on styling an HTML page using advanced CSS techniques as pa
 - Enhance typography, color schemes, and animations.
 
 ## Design Reference
-- [Figma Design](#) *([replace with actual link](https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=0-1&t=KOLS3ygXpWYNSPlr-1))*
+- [Figma Design](#) (https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=0-1&t=KOLS3ygXpWYNSPlr-1)
 
 - Fonts: [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro), Spin Cycle OT.
 
