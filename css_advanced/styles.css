@@ -7,10 +7,7 @@
 
 body{
     background-color: rgb(101, 101, 101);
-    /* background-image: url(images/Bitmap.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    
     
 }
 
@@ -41,17 +38,47 @@ li a{
     text-decoration: none;
 }
 
-button{
-    background-color: #C271FF;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 10px 12px 55px -21px rgba(0,0,0,0.75);
+.content{
+    margin: 100px 0;
 }
 
-main section  {
-  
-    padding: 100px 0;
+.home_content h1 {
+    font-size: 4.5em;
+    
+
+}
+
+.home_content {
+
+    text-align: center;color: #fff;
+
+}
+.span_class {
+    margin: 20px 0;
+}
+.span_class span {
+    margin: 0 30px;
+    font-weight: 600;
+    
+}
+button {
+    padding: 10px 20px;
+    background-color: #C271FF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 10px 12px 55px -21px rgba(0,0,0,0.75);
+}
+button:hover {
+    background-color: #730071;
+}
+
+main{
+    height: 100vh;
+    /* background-image: url(images/Bitmap.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
