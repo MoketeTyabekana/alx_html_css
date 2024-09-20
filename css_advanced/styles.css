@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body{
+    height: 100vh;
+}
+
 header, main, footer{
     padding: 20px 100px;
 }
