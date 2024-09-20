@@ -4,3 +4,14 @@
     font-family: sans-serif;
 }
 
+header, main, footer{
+    padding: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+}
