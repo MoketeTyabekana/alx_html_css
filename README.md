@@ -8,8 +8,8 @@ This project focuses on styling an HTML page using advanced CSS techniques as pa
 - Enhance typography, color schemes, and animations.
 
 ## Design Reference
-- [Figma Design](#) *(replace with actual link)*
-- [Download Images](#) *(replace with actual link)*
+- [Figma Design](#) *([replace with actual link](https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=0-1&t=KOLS3ygXpWYNSPlr-1))*
+
 - Fonts: [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro), Spin Cycle OT.
 
 ## Installation
@@ -17,4 +17,3 @@ This project focuses on styling an HTML page using advanced CSS techniques as pa
    ```bash
    git clone https://github.com/MoketeTyabekana/alx_html_css.git
 
-   
