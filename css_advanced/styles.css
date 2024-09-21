@@ -6,10 +6,12 @@
 }
 
 body {
+
+    background-color: gray;
   
-  background-image: 
+  /* background-image: 
   linear-gradient(to top, #000000 0%, #00000000 100%),
-  url(images/Bitmap.png);
+  url(images/Bitmap.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +20,11 @@ body {
 header,
 main,
 footer {
-  padding: 20px 100px;
+  padding: 20px 0;
+}
+
+header{
+    padding: 25px 40px;
 }
 
 header nav,
@@ -107,7 +113,7 @@ h2 span {
 }
 
 main {
-  height: 100vh;
+  /* height: 100vh; */
   /* background-image: url(images/Bitmap.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -116,4 +122,14 @@ main {
 
 .banner{
     background-color: #c271ff;
+    height: 300px;
+    display: flex;
+   justify-content: center;
+   
+   align-items: center;
+   color: #fff;
+}
+
+.banner_image{
+    margin: 0 20px;
 }
