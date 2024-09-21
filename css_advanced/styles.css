@@ -144,9 +144,80 @@ main {
   color: #c271ff;
 }
 
+.tutorials_card{
+    display: flex;
+    flex-direction: column;
+}
+
+.small_image{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
 .small_image img{
     height: 30px;
     width: 30px;
     border: none;
     border-radius: 50%;
+    margin-right:15px;
+}
+
+.small_image h4{
+    color: #c271ff;
+}
+
+.videos_list{
+    background-color: #fff;
+    padding: 75px 0;
+}
+
+.videos {
+    display: flex;
+    margin: 30px 0;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.tutorials_card{
+    align-content: center;
+    width: 255px;
+    height: 335px;
+}
+
+.tutorials_card h3,p{
+   margin-bottom: 15px;
+}
+
+.card_img{
+    height:154px ;
+    width: 255px;
+    margin-bottom: 20px;
+}
+
+.rating_stars{
+    display: flex;
+}
+
+.fa-solid{
+    color: #c271ff;
+    margin: 0 5px;
+}
+
+.rating_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating_div p{
+   color: #c271ff;
+}
+
+.membership{
+    background-color: #071629;
+}
+
+.membership h3 span{
+ color: #c271ff;
 }
