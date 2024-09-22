@@ -6,21 +6,15 @@
 }
 
 body {
-  background-color: gray;
-
-  /* background-image: 
-  linear-gradient(to top, #000000 0%, #00000000 100%),
-  url(images/Bitmap.png); */
-  background-position: center;
-  background-repeat: no-repeat;
+    background-image: 
+    linear-gradient(to bottom, rgba(26, 32, 44, 0.6), rgba(74, 85, 104, 1)),
+    url('images/Bitmap.png');
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-header,
-main,
-footer {
-  padding: 20px 0;
-}
 
 header {
   padding: 25px 40px;
@@ -111,11 +105,6 @@ button:hover {
 h2 span {
   color: #c271ff;
 }
-
-main {
- background-color: #fff;
-}
-
 
 
 .banner {
@@ -267,7 +256,7 @@ padding: 40px 100px;
 
 
 .faq_content{
-    margin: 50px 0;
+    
     padding: 50px 40px;
     display: grid;
     grid-template-columns: repeat(2,400px);
@@ -307,6 +296,6 @@ footer{
 footer p{
     color: gray;
     text-align: center;
-    align-self: baseline;
+   
 }
 
