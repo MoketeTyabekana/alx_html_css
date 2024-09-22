@@ -113,11 +113,7 @@ h2 span {
 }
 
 main {
-  /* height: 100vh; */
-  /* background-image: url(images/Bitmap.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+ background-color: #fff;
 }
 
 
@@ -291,7 +287,6 @@ padding: 40px 100px;
 
 footer{
     padding: 50px 40px;
-    height: 250px;
     background-color: #071629;
     align-items: center;
 
@@ -300,10 +295,18 @@ footer{
  i{
     color: #fff;
     margin: 0 20px;
+    
 }
 
 .footer_content{
     display: flex;
     justify-content: space-between;
+   
+}
+
+footer p{
+    color: gray;
+    text-align: center;
+    align-self: baseline;
 }
 
