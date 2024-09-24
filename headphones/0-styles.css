@@ -48,5 +48,47 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    color: #ffee00;
+    color:#fd0000;
+}
+
+/* main home content */
+
+.home{
+    text-align: center;
+    height: 100vh;
+}
+
+.home_content h1,p,button{
+    margin: 20px 0;
+    color: #fff;
+}
+
+.home_content{
+    margin: 200px auto;
+    padding: 20px;
+    width: 65%;
+}
+
+.home_content h1{
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.home_content button{
+    background-color: #FF6565;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 150px;
+    border: none;
+    font-weight: 500;
+}
+
+.home_content button:hover{
+    background-color: #fd0000;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 150px;
+    border: none;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
 }
