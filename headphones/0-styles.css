@@ -139,12 +139,12 @@ button {
 /* Results Section */
 
 .results_section{
-    height: 650px;
     background-image: url(images/headphones_hero_2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+
 }
 
 .results_section {
@@ -169,6 +169,7 @@ button {
     grid-template-columns: repeat(4,1fr);
     justify-content: space-around;
     gap: 20px;
+
 }
 
 .results .results_card{
@@ -177,5 +178,16 @@ button {
     background-image: url(images/pentagone.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    align-content: center;
     
 }
+
+.results .results_card h3{
+   font-weight: 500;
+   font-size: 1.5em;
+}
+
+
+
