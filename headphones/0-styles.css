@@ -135,3 +135,16 @@ button {
 .service_card{
     text-align: center;
 }
+
+/* Results Section */
+
+.results_section{
+    height: 650px;
+    background-image: url(images/headphones_hero_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    color: #fff;
+}
