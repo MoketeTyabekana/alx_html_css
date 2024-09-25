@@ -206,6 +206,10 @@ p {
   padding: 5% 10%;
 }
 
+.contact_us form{
+    margin: 0 auto;
+}
+
 .contact_us form {
   display: flex;
   flex-direction: column;
@@ -214,6 +218,7 @@ p {
   padding: 20px;
   text-align: center;
   text-align: center;
+  
 }
 
 form input,
@@ -231,4 +236,8 @@ textarea {
   padding: 10px 5px;
   border: none;
   border-bottom: solid 1px gray;
+}
+
+form button{
+    align-self: center;
 }
