@@ -144,7 +144,23 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     text-align: center;
+}
+
+.results_section {
+    padding: 5% 10%;
+    background-color: #fff;
+    text-align: center;
+    gap: 50px;
+   }
+
+   .results_content p, .results p,h3{
     color: #fff;
+   }
+
+.results_content{
+    margin: 0 250px;
+    text-align: center;
+    padding-bottom: 50px;
+   
 }
