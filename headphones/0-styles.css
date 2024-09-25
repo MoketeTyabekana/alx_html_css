@@ -153,6 +153,14 @@ p {
   text-align: center;
 }
 
+.results_content h1{
+    font-weight: 600;
+    color: #fff;
+}
+
+.results_card p{
+    font-size: 14px;
+}
 .results_section {
   padding: 5% 10%;
   background-color: #fff;
