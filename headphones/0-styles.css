@@ -249,3 +249,16 @@ textarea {
 form button{
     align-self: center;
 }
+
+
+/* Footer*/
+
+footer{
+    background-color: #071629;
+    text-align: center;
+}
+
+footer p{
+    color: #fff;
+    opacity: 0.5;
+}
