@@ -1,7 +1,8 @@
 
 
-@media (min-width: 769px){
+@media (max-width: 720px) and (max-width: 1080px)  {
    
+
     * {
         font-family: "Poppins", sans-serif;
         font-weight: 200;
@@ -21,22 +22,26 @@
       
       /* Navigation Styles */
       
-      /* Style the header */
       header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 40px;
+        padding: 15px 10px;
       }
       
       header .logo img {
         height: 30px;
+      
       }
       
       nav ul {
         list-style-type: none;
         display: flex;
         gap: 20px;
+      }
+
+      ul li a{
+        display: none;
       }
       
       nav ul li a {
@@ -57,7 +62,9 @@
       .home {
         text-align: center;
         height: 100vh;
+        
       }
+
       
       .home_content h1,
       p,
@@ -68,8 +75,8 @@
       
       .home_content {
         margin: 200px auto;
-        padding: 20px;
-        width: 65%;
+        padding:5px;
+        width: 85%;
       }
       
       .home_content h1,
@@ -111,7 +118,7 @@
       /* What we do section */
       
       .whatwedo {
-        padding: 5% 10%;
+        padding: 5%;
         background-color: #fff;
         text-align: center;
         gap: 50px;
@@ -123,16 +130,17 @@
       }
       
       .whatwedo_content {
-        margin: 0 250px;
+        margin: 0 25px;
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 25px;
       }
       
       .services {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        justify-content: space-around;
-        gap: 20px;
+        display: flex;
+         flex-direction: column;
+        gap: 25px;
+        margin: 0 50px;
+    
       }
       
       .service_card img {
@@ -145,6 +153,7 @@
       
       .service_card {
         text-align: center;
+        margin: 50px 0;
       }
       
       /* Results Section */
@@ -154,7 +163,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        text-align: center;
+
       }
       
       .results_content h1{
@@ -165,8 +174,9 @@
       .results_card p{
           font-size: 14px;
       }
+
       .results_section {
-        padding: 5% 10%;
+        padding: 5%;
         background-color: #fff;
         text-align: center;
         gap: 50px;
@@ -179,20 +189,24 @@
       }
       
       .results_content {
-        margin: 0 250px;
+        margin: 0 25px;
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 25px;
       }
+      
       .container{
         display: flex;
         justify-content: center;
       }
       
-      .results {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        justify-content: space-between;
-        width: 85%;
+      .container  .results {
+        display: flex;
+        flex-direction: column;
+        gap: 25px 0;
+        margin: 10px auto;
+
+        justify-content: center;
+        align-items: center;
       
       }
       
@@ -220,19 +234,21 @@
       
       .contact {
         background-color: #fff;
-        padding: 5% 10%;
+        padding: 5%;
       }
       
-      .contact_us form{
-          margin: 0 auto;
-      }
+     .contact_us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+     }
       
       .contact_us form {
         display: flex;
         flex-direction: column;
-        gap: 35px;
-        width: 320px;
-        padding: 20px;
+        gap: 25px 0;
         text-align: center;
         text-align: center;
         
@@ -267,12 +283,17 @@
           text-align: center;
           padding: 5% 5%;
       }
+
+      footer .footer_content .footer_icons{
+        margin: 10px 0;
+      }
       
       footer .footer_content{
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-      
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         
       }
       
       .footer_content img{

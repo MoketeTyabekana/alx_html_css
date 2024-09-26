@@ -1,6 +1,6 @@
 
 
-@media (max-width: 480px) and (max-width: 767px) {
+@media (max-width: 480px) and (max-width: 767px)  {
    
 
     * {
@@ -26,7 +26,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 10px;
+        padding: 15px 10px;
       }
       
       header .logo img {
@@ -234,19 +234,21 @@
       
       .contact {
         background-color: #fff;
-        padding: 5% 10%;
+        padding: 5%;
       }
       
-      .contact_us form{
-          margin: 0 auto;
-      }
+     .contact_us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+     }
       
       .contact_us form {
         display: flex;
         flex-direction: column;
-        gap: 35px;
-        width: 320px;
-        padding: 20px;
+        gap: 25px 0;
         text-align: center;
         text-align: center;
         
@@ -281,13 +283,17 @@
           text-align: center;
           padding: 5% 5%;
       }
+
+      footer .footer_content .footer_icons{
+        margin: 10px 0;
+      }
       
       footer .footer_content{
-          display: flex;
-          flex-direction: row;
-          gap: 10px;
-          justify-content: center;
-      
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         
       }
       
       .footer_content img{
