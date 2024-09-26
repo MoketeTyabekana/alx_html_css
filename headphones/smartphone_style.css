@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
    
 
     * {
@@ -100,7 +100,7 @@
       }
       
       button:hover {
-        background-color: #fd0000;
+        background-color: #FF6565;
         border-radius: 50px;
         padding: 10px 20px;
         width: 150px;
