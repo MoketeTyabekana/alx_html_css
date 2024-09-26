@@ -1,6 +1,6 @@
 
 
-@media (max-width: 720px) and (max-width: 1080px)  {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
    
 
     * {
@@ -136,10 +136,13 @@
       }
       
       .services {
-        display: flex;
-         flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         gap: 25px;
         margin: 0 50px;
+
+        justify-content: center;
+        align-items: center;
     
       }
       
@@ -176,7 +179,7 @@
       }
 
       .results_section {
-        padding: 5%;
+        width: 100%;
         background-color: #fff;
         text-align: center;
         gap: 50px;
@@ -189,9 +192,8 @@
       }
       
       .results_content {
-        margin: 0 25px;
         text-align: center;
-        padding-bottom: 25px;
+    
       }
       
       .container{
@@ -202,7 +204,7 @@
       .container  .results {
         display: flex;
         flex-direction: column;
-        gap: 25px 0;
+        gap: 25px;
         margin: 10px auto;
 
         justify-content: center;
@@ -281,7 +283,7 @@
       footer{
           background-color: #071629;
           text-align: center;
-          padding: 5% 5%;
+          padding: 5% 25%;
       }
 
       footer .footer_content .footer_icons{
