@@ -215,48 +215,6 @@
     margin: 5px auto;
   }
   
-  /* Contact Us Section */
-  
-  .contact {
-    background-color: #fff;
-    padding: 5% 10%;
-  }
-  
-  .contact_us form{
-      margin: 0 auto;
-  }
-  
-  .contact_us form {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    width: 320px;
-    padding: 20px;
-    text-align: center;
-    text-align: center;
-    
-  }
-  
-  form input,
-  textarea,
-  h1 {
-    color: #000000;
-  }
-  
-  form h1 {
-    font-weight: 600;
-  }
-  
-  form input,
-  textarea {
-    padding: 10px 5px;
-    border: none;
-    border-bottom: solid 1px gray;
-  }
-  
-  form button{
-      align-self: center;
-  }
   
   
  
