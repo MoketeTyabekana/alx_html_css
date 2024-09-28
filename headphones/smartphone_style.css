@@ -31,7 +31,6 @@
         left: -100%;
         width: 100%;
         background-color: #80000000;
-        transition: left 0.3s ease;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -59,9 +58,10 @@
         left: 0;
     }
 
-    .menu-close {
-        display: none;
-    }
+    .menu-icon .menu-close {
+      display: none;
+  }
+
 
     .menu-toggle:checked ~ .menu-icon .menu-open {
         display: none;
