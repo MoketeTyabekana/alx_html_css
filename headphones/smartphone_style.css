@@ -25,6 +25,14 @@
         display: block;
     }
 
+    .menu-icon .material-symbols-outlined {
+      color: #fff; /* Change this to your desired color */
+    }
+    
+    .menu-toggle:checked ~ .menu-icon .material-symbols-outlined {
+      color: #fff; 
+    }
+
     nav {
         position: fixed;
         top: 0;
